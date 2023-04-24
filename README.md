@@ -15,6 +15,6 @@ segunda vez, o sistema verifica se aquela data já havia sido requisitada e traz
 O sistema também faz a verificação da conexão com a API, caso ocorra algum erro, uma exceção é lançada.
 
 Como é necessário que sempre a aplicação esteja com o banco de dados de testes limpo, ao iniciar os testes, são rodados dois 
-Scripts sql que deleta e recria a tabela no banco. 
+Scripts sql que deletam e recriam a tabela no banco. 
 
 
