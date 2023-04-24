@@ -12,7 +12,7 @@ Além disso, é necessário configurar o banco de dados postgres na máquina do 
 Como pedido na atividade, o sistema faz a primeira busca de data através da API do banco central, já a partir da 
 segunda vez, o sistema verifica se aquela data já havia sido requisitada e traz o valor da cotação do banco de dados.
 
-O sistema também faz a verificação da conexão com a API, caso ocorro algum erro, uma exceção é lançada.
+O sistema também faz a verificação da conexão com a API, caso ocorra algum erro, uma exceção é lançada.
 
 Como é necessário que sempre a aplicação esteja com o banco de dados de testes limpo, ao iniciar os testes, são rodados dois 
 Scripts sql que deleta e recria a tabela no banco. 
