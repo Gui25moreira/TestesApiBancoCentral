@@ -17,5 +17,5 @@ O sistema também faz a verificação da conexão com a API, caso ocorra algum e
 Como é necessário que sempre a aplicação esteja com o banco de dados de testes limpo, ao iniciar os testes, são rodados dois 
 Scripts sql que deletam e recriam a tabela no banco. 
 
-O sistema utiliza um vo, "Value Object",  "Value Object que geralmente são imutáveis. Eles são frequentemente usados para representar dados que são lidos de um banco de dados ou de um serviço de API.
+O sistema utiliza um vo, "Value Object", que geralmente são imutáveis. Eles são frequentemente usados para representar dados que são lidos de um banco de dados ou de um serviço de API.
 
